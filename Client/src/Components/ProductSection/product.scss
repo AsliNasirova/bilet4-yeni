@@ -1,0 +1,99 @@
+#Product{
+    padding-top: 90px;
+    .productArea{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        .titleProduct{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+             h1{
+                    font-size: 60px;
+             }
+             p{
+                width: 800px;
+                color: gray;
+             }
+        }
+        .productCard{
+            gap: 30px;
+           
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 40px;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #Product{
+        padding-top: 90px;
+        .productArea{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .titleProduct{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                 h1{
+                        font-size: 40px;
+                 }
+                 p{
+                    width: 500px;
+                    color: gray;
+                 }
+            }
+            .productCard{
+                gap: 30px;
+               
+                margin: auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #Product{
+        padding-top: 90px;
+        .productArea{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .titleProduct{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                 h1{
+                        font-size: 30px;
+                 }
+                 p{
+                    width: 300px;
+                    color: gray;
+                 }
+            }
+            .productCard{
+                gap: 30px;
+               
+                margin: auto;
+                display: grid;
+                grid-template-columns: 1fr  ;
+                margin-top: 40px;
+            }
+        }
+    }
+}

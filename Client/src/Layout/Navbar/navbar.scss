@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .textNav {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+
+        .zone {
+            color: red;
+        }
+    }
+
+    .switchNav {
+        font-size: 20px;
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+
+        a{
+            color: black;
+        }
+    }
+}
